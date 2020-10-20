@@ -80,3 +80,44 @@ main.content-box {
   color: rgba(234, 246, 229, 1);
   padding: 2rem 0;
 }
+
+
+
+/* Responsive Rules */
+
+@media screen and (max-width: 1200px) {
+  
+}
+
+@media screen and (max-width: 950px) {
+
+}
+
+@media screen and (max-width: 750px) {
+  header {
+    grid-column: span 4;
+  }
+  
+  nav {
+    grid-column: span 8;
+    justify-content: space-around;
+  }
+
+  a.nav-link {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  input {
+    font-size: 2rem
+  };
+
+  div.breadcrumb span#page-title {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  
+}
